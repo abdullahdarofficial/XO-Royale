@@ -181,7 +181,7 @@ class _Intro_ScreenState extends State<Intro_Screen> {
                   var name1 = name1contrl.text.toString();
                   var name2 = name2contrl.text.toString();
                   print('Player One: $name1\nPlayer Two: $name2');
-                  Navigator.push(context, MaterialPageRoute(builder: (context){
+                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
                     return Game_Interface_Screen(nam1: name1,nam2: name2,);
                   }));
                 }, child: Padding(

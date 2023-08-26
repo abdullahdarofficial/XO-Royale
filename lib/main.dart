@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tic_tac_toe/Pages/End_Screen.dart';
+import 'package:tic_tac_toe/Pages/Game_Page.dart';
 import 'package:tic_tac_toe/Pages/Splash_Screen.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tic Tac Toe',
       debugShowCheckedModeBanner: false,
-     home: Splash_Screen(),
+      home: Splash_Screen(),
     );
   }
 }
