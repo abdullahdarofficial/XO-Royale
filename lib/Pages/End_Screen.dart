@@ -114,11 +114,11 @@ class _End_ScreenState extends State<End_Screen> {
                 SizedBox(height: 50,),
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.yellow,
+                    color: Colors.black54,
                     borderRadius: BorderRadius.circular(10),
                     border: Border.all(
-                      width: 5.0,
-                      color: Colors.black,
+                      width: 2.0,
+                      color: Colors.white,
                     ),
 
                   ),
@@ -127,7 +127,7 @@ class _End_ScreenState extends State<End_Screen> {
                     child: Text(result,
                       style: TextStyle(
                           fontSize: 20,
-                          color: Colors.black,
+                          color: Colors.white,
                           fontWeight: FontWeight.bold
                       ),),
                   ),
